@@ -67,13 +67,14 @@
     .mensagem {
       display: none;
       font-size: 15px;
-      color: #27ae60
+      color: #27ae60;
+      margin-top: 15px;
     }
   </style>
 </head>
 <body>
 
-  <div class="confirmacao-b">
+  <div class="confirmacao-box">
     <p>Deseja confirmar este agendamento?</p>
     <div class="botoes">
       <button class="btn-sim" onclick="confirmarAgendamento()">Sim</button>
@@ -86,7 +87,7 @@
 
   <script>
     function confirmarAgendamento() {
-      document.getElementById("mensagemConfirmacle.display = "block";
+      document.getElementById("mensagemConfirmacao").style.display = "block";
     }
 
     function cancelarAgendamento() {
